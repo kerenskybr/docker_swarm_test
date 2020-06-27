@@ -1,0 +1,25 @@
+<h3>Create a post</h3>
+<form action="/new" method="POST">
+	<label>Author</label>
+  		<input type="text" name="author"/>
+  	<label>Text</label>
+  		<input type="text" name="text"/>
+  	<label>Tags</label>
+      <input type="text" name="tags"/>
+      <input type="submit"/>
+</form>
+
+<h3>Search for an author</h3>
+<form action="/search" method="POST">
+  <label>Author</label>
+      <input type="text" name="busca"/>
+      <input type="submit"/>
+</form>
+
+
+{% for item in items %}
+  <h3>{{ item.author }} </h3>
+  <p> {{ item.text }} <p>
+  <small>{{ item.tags }}</small>
+  <small> {{ item.data }} </small>
+{% endfor %}

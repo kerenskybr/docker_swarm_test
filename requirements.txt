@@ -1,0 +1,4 @@
+flask
+pymongo
+mongo-connector
+elasticsearch
