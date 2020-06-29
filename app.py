@@ -13,7 +13,7 @@ collection = db.test_collection
 
 es = Elasticsearch(
 	['elasticsearch'],
-		http_auth=('elastic', 'aUt85vdmonTV6DxJm7u2H9od')
+		http_auth=('elastic', 'Z6dm5Ff3br86jDnvjaoZbYQv')
 	)
 
 posts = db.posts

@@ -2,3 +2,4 @@ flask
 pymongo
 mongo-connector
 elasticsearch
+kibana
